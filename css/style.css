@@ -1,0 +1,79 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.nav {
+  width: 100%;
+  min-height: 90px;
+  background: grey;
+  float: left;
+}
+
+.right {
+  width: 30%;
+  min-height: inherit;
+  background: yellowgreen;
+  float: left;
+}
+
+.left {
+  width: 70%;
+  min-height: inherit;
+  background: green;
+  float: left;
+}
+
+.demo {
+  font-family: "Webdings";
+  font-size: 90px;
+  color: white;
+  float: left;
+}
+
+.demo2 {
+  font-family: "Arial";
+  font-size: 50px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 80px;
+}
+
+.cRed {
+  color: red;
+}
+
+.menu {
+  width: 70%;
+  min-height: inherit;
+  background: green;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+}
+
+.menu ul li {
+  margin: 0;
+  padding: 0px;
+}
+
+.menu ul li {
+  list-style-type: none;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0px 28px;
+  border: 5px solid transparent;
+  color: yellow;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.menu ul li:hover {
+  color: blue;
+  cursor: pointer;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+}
